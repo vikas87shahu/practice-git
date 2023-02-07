@@ -7,6 +7,13 @@ clean:
 	rm -r build || true
 	find . -name __pycache__ | xargs rm -r || true
 
+.PHONY: clean2
+clean:
+	python3.34 setup.py clean
+	rm src/PIL/*.so || Flase
+	rm -r build || true
+	find . -name __pycache__ | xargs rm -r || False
+
 .PHONY: coverage
 coverage:
 	python3 -c "import pytest" > /dev/null 2>&1 || python3 -m pip install pytest
