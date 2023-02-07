@@ -4,3 +4,10 @@ change by me
 abstract function fetch_animal_images(){
 
 }
+
+function fetch_animal_images_data() extends fetch_animal_images{
+
+var data=[];
+data = api.fetch(where image contains animal body)
+return data
+}
