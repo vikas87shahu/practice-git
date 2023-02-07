@@ -1,2 +1,6 @@
 this is version four of my software
 change by me
+
+abstract function fetch_animal_images(){
+
+}
