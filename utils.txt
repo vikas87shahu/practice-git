@@ -6,3 +6,9 @@ it completely tracks all changes
 
 git diff --staged 
 checks differences between commited last version and staged version of file
+
+git diff 
+checks differences between staged last version and working version of file
+
+git commit -a -m 'message to be added'
+direct commits the files and ignores the untracked files
