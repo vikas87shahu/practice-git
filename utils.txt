@@ -1,2 +1,8 @@
 this is the file which contains the utility of version 3
  software
+checking if 'git add .' tracks on closing window  
+it completely tracks all changes
+
+
+git diff --staged 
+checks differences between commited last version and staged version of file
