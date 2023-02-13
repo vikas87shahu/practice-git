@@ -1,0 +1,3 @@
+this file is being is modified using command 'nano filename' and we are in project deep_learning project
+alright than time to move
+
